@@ -1,0 +1,97 @@
+﻿Vaatimukset: (Air pressure 2, Ilmanpaine labran sisällä)
+
+ITSE KYTKENTÄ JA DATA
+/////////////////////////////////////////////////////
+Kytkentä (Vastuuhenkilö Ari)
+
+	Piirikaavio valmiina
+	Kytkentälevyn tekeminen - 3h
+		-Komponentit ja niiden listaus
+		-Jännitearvot (vaatii varmaan myös testauksen fluke yms.?)
+	Kytkennän tekeminen - 4h
+		-Arduino
+		-Ethernet moduuli
+		-LCD-näyttö
+		-Näppäimistö
+	Kytkennän testaus - 2h
+		-Jännitearvot
+		-Testipöytäkirja
+		
+Kokonaistyömääräarvio: 9h
+//// MILESTONE 1
+	
+Jännitevaatimukset Project requirements- wordissa
+	
+Ohjelmalogiikka (Vastuuhenkilö Olli)
+	LCD-näyttö - 0.5h
+		-Testus/dokumentaatio
+		
+	Mittausdatan lukeminen
+		Signaalin hakeminen sensorilta - 8h
+			-Testaus/dokumentaatio
+			-Näyttö päivitetään sekunnin välein
+			-Pitää olla luettavissa lcd-näytöllä
+		
+	Valmis kirjasto datan lukemiseen (adafruit)
+
+	Kellonajan lukeminen - 3h
+		-Pitää olla luettavissa lcd-näytöllä
+		-Valmis funktio reffi-koodissa?
+		-Testaus/dokumentaatio
+
+Kokonaistyömääräarvio: 20.5h
+//// MILESTONE 2 (Android-App?)
+		
+	Pitää viedä raspberrylle - 3h (Vastuuhenkilö Väinö)
+		-Valmis MQTT koodi
+		-Testaus?/dokumentaatio
+		-Pitää olla luettavissa raspberryn näytöllä
+
+	Tietokantapäivitys - 3h (Vastuuhenkilö Ari)
+		-Pitää viedä tietokantaan
+		-Pitää olla käytössä web-UI:ssa
+
+Kokonaistyömääräarvio: 26.5h
+//// MILESTONE 3 (Android-App?)
+
+Android-App - 15h (Vastuuhenkilö Väinö)
+	-Datan hakeminen raspilta/DB:sta?
+	-Datan esittäminen puhelimella
+	-Testaus/dokumentaatio
+
+Testitapaukset - 8h (Vastuuhenkilö Olli)
+	Miten yllä mainitut ominaisuudet testataan?
+		-Testitilanne
+		-Testiympäristö
+		-Hyväksyttävät mittausarvot
+	Korjaustarpeet?
+	Loppuyhteenveto
+		-Tarkastetaan dokumentaatio
+		-Jälkiarviointi onnistumisista/haasteista
+	
+Kokonaistyömääräarvio: 34.5h (54h Android-App)
+
+	
+////////////////////////////////////////////////////////
+
+DOKUMENTAATIO (Vastuuhenkilö Ari)
+////////////////////////////////////////////////////////
+Projektisuunnitelma - Valmis 06.2.2018
+	-Vastuualueet
+	-Dokumenttipohjan teko
+	-Grafiikka?
+	
+
+Projektivaatimukset (osa tässä) - 2h
+
+Tehdyn koodin dokumentaatio (rajapinnat ja funktiot) kooste - 1h
+
+Testitapaukset (Tehdään projektin edetessä)
+	Testipöytäkirja
+		-Vaaditut testit
+		-Saadut tulokset
+		-Raportti koko testistä
+		
+Aikataulusuunnitelma - 1h
+	-Kuka vastaa mistäkin?
+	-Sisältyy projektisuunnitelmaan
